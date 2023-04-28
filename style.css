@@ -1,12 +1,15 @@
+body {
+    margin: 0;
+  }
 .custom-bg-223 {
     background-color: rgb(223, 223, 223);
-    color: white;
-    min-height: 150px;
+    color: black;
+    min-height: 15px;
 }
 .custom-bg-119 {
     background-color: rgb(119, 119, 119);
     color: white;
-    min-height: 450px;
+    min-height: 480px;
 }
 .custom-bg-249-107-97 {
     background-color: rgb(249, 107, 97);
@@ -36,4 +39,8 @@
     background-color: rgb(59, 59, 59);
     color: white;
     min-height: 80px;
+}
+.my-3 {
+    padding-left: 9rem !important;
+    padding-right: 3rem !important;
 }
