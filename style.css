@@ -9,12 +9,12 @@ body {
 .custom-bg-119 {
     background-color: rgb(119, 119, 119);
     color: white;
-    min-height: 480px;
+    min-height: 380px;
 }
 .custom-bg-249-107-97 {
     background-color: rgb(249, 107, 97);
     color: white;
-    min-height: 250px;
+    min-height: 300px;
 }
 .custom-bg-225 {
     background-color: rgb(255, 255, 255);
@@ -33,14 +33,111 @@ body {
 .custom-bg-96-96-96{
     background-color: rgb(96, 96, 96);
     color: white;
-    min-height: 250px;
+    min-height: 350px;
 }
 .custom-bg-59-59-59{
     background-color: rgb(59, 59, 59);
     color: white;
     min-height: 80px;
 }
-.my-3 {
-    padding-left: 9rem !important;
-    padding-right: 3rem !important;
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: red !important;
+}
+.carousel-control-prev, .carousel-control-next {
+    background-color: #FF7F7F;
+  }
+  .webDev{
+    padding-left: 7rem !important;
+    padding-right: 7rem !important;
+  }
+  .line{
+    background-color: rgb(170, 170, 170);
+    max-height: 2px;
+    color: #FFFF
+  }
+  .top{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 25px;
+    font-style: inherit;
+    font-weight: bold;
+    padding-top: 40px;
+
+  }
+  .bottom{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: inherit;
+    font-weight: bold;
+    color:rgb(119, 119, 119);
+    padding-bottom: 20px;
+  }
+  .boldText{
+    text-align: left;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 15px;
+    font-style: inherit;
+    padding-top: 20px;
+  }
+  .semiBoldText{
+    text-align: left;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 13px;
+    font-style: inherit;
+    color:rgb(119, 119, 119);
+    padding-top: 20px;
+  }
+  .redText{
+    color: rgb(244, 71, 58);
+  }
+  .colummText{
+   
+    font-family: inherit;
+    font-size: 15px;
+    font-style: inherit;
+    color:rgb(119, 119, 119);
+    padding-top: 20px;
+  }
+  .footerTitle{
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 15px;
+    font-style: inherit;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .myList {
+    text-decoration: underline;
+    width: 100%;
+  }
+  ul.myList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.myList li {
+    
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;   
+    transition: border-color 0.2s ease-in-out;
+  }
+  .myList li a {
+    color: white;
+    transition: border-color 0.2s ease-in-out;
+    text-decoration: underline;
+    width: 100%;
+  }
+  .container-fluid.custom-bg-59-59-59 a {
+    text-decoration: none;
 }
