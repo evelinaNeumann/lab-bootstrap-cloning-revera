@@ -55,7 +55,8 @@ body {
   .line{
     background-color: rgb(170, 170, 170);
     max-height: 2px;
-    color: #FFFF
+    color: #FFFF;
+    margin-bottom: 20px;
   }
   .top{
     text-align: left;
@@ -141,3 +142,36 @@ body {
   .container-fluid.custom-bg-59-59-59 a {
     text-decoration: none;
 }
+.grayscale {
+    filter: grayscale(100%);
+}
+.slide-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    
+  }
+  .h3{
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 55px;
+    font-style: inherit;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    max-width: 50%;
+
+  }
+  .slide-text p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  .btn-primary {
+    margin-top: 1em;
+    font-weight: bold;
+    font-family: inherit;
+  }
+  
